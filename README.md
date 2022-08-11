@@ -1,5 +1,5 @@
 # IMC
-o projeto tem a função de calcular sua massa corporal e dar um restultado baseado nisso 
+o projeto tem a função de calcular sua massa corporal
 
 link:https://caiomafia.github.io/IMC/
 
