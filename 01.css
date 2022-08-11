@@ -2,44 +2,49 @@
 
 button{width: 95%; margin: 10px; height: 30px; background-color: black; color: white; }
 input{ width: 95%; margin: 10px;}
-label{margin: 10px;}
-h1{margin: 10px;}
+label{margin: 10px; font-size: 20px; font-family: monospace;}
+h1{ font-family: monospace; margin-top: 50%;} 
 
-input:hover{background-color: aqua;}
-button:hover{background-color: rgb(122, 118, 118); colorgb(255, 250, 250)ack;}
+input:hover{background-color: rgb(0, 183, 255);}
+button:hover{background-color: rgb(179, 179, 179); colorgb(255, 250, 250)ack;}
 
 
-.paragrafo-resultado {background-color: rgb(109, 139, 0); padding: 10px 20px;}
+.paragrafo-resultado {background-color: rgb(122, 165, 221); padding: 10px 20px;}
 
 .bad { padding: 10px 20px; background-color: blue; color: white;}
 
 
-@media only screen and (max-width: 900px) {
-  body{background-image:url(https://i.pinimg.com/736x/31/ae/54/31ae54f0dac0fdaa8a55fb7078285f53.jpg);
+@media only screen and (max-width: 600px) {
+  body{background-color: blue;
   }
-.container{ background-color: rgb(235, 223, 223);
+.container{ background-color: rgb(255, 255, 255);
 width: 2px;
 margin-left: auto;
 margin-right: auto;
 height:60%;
+text-align: center;
 
 }
     .tabela , .container{width: 300px;}
-    #peso, #altura {width: 90%;}
+    #peso, #altura {width: 50%; height: 20px;}
   }
 
 
 
   
-  @media only screen and (min-width: 900px) {
-
-body{background-image:url(https://i.pinimg.com/736x/31/ae/54/31ae54f0dac0fdaa8a55fb7078285f53.jpg);
-color: rgb(0, 0, 0);}
-    .tabela{width:600px;}
-    #peso, #altura {width: 90%;}
-    .container{ background-color: rgb(255, 255, 255);
-      width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-      height:60%;
+  @media only screen and (min-width: 625px) {
+    body{background-color: blue;
+    }
+  .container{ background-color: rgb(255, 255, 255);
+  width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  height:60%;
+  text-align: center;
+  
   }
+      .tabela , .container{width: 300px;}
+      #peso, #altura {width: 50%; height: 20px;
+      }
+    }
+  

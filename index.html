@@ -11,14 +11,17 @@
 </head>
 <body>
 <section class="container">
- <img class="tabela" src="https://files.passeidireto.com/14186eca-697b-4716-997d-8fa52f23e7a2/14186eca-697b-4716-997d-8fa52f23e7a2.jpeg" alt="" width="100%">
 <h1> Calcule seu IMC</h1>
 <form action="/"  id="formulario" method="POST">
-  <label for="peso"> Peso  </label>
-  <input type="text" id="peso" name="peso"> 
-  <label for="altura"> Altura</label>
-  <input type="text"   id="altura" name="altura" >
-  <button type="submit">Enviar </button>
+  <div class="pesotext">
+      <label for="peso"> Peso : </label> 
+   <input type="text" id="peso" name="peso"> 
+
+  </div>
+
+  <label for="altura"> Altura :</label>
+  <input type="text"   id="altura" name="altura" ><br>
+  <button type="submit">Calcular </button>
   <p id="resultado"></p>
 </form>
 </section>
