@@ -1,4 +1,7 @@
-# Calculo de massa muscular apartir de dois inputs que pega seus dados, e faz IMC  e devolve uma resposta 
+# IMC
+o projeto tem a função de calcular sua massa corporal e dar um restultado baseado nisso 
+
+link:https://caiomafia.github.io/IMC/
 
 ![image](https://user-images.githubusercontent.com/91575842/184137240-87f87fdf-3aa1-47ad-8b25-5711111ba018.png)
 
